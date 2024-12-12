@@ -60,7 +60,7 @@ Splits the data into train and test, and keeps track of it. Makes n_boostrap set
 Finds PQ, PC, F1, and F1* measures
 
 # Main Run:
-## (Initialise run)
+## Initialise run
 Runs the part which is fixed for both train and test data.
 Includes importing the data, transforming it from .json to list, and separating modelID used for evaluation, from the rest of the data.
 Initialising the bootstraps, results matrices.
